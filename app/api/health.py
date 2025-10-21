@@ -1,0 +1,1 @@
+"""FastAPI health check endpoint."""
