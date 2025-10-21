@@ -6,6 +6,8 @@
 
 Single-tenant Telegram bot for monitoring Yandex.Direct statistics and budgets. Designed for self-hosting with a simple fork-and-deploy workflow.
 
+> **Status**: Phase 1 Foundation - Active Development 🚧
+
 ## Features
 
 - 📊 **Statistics & Budgets**: Get comprehensive stats and budgets for all your Yandex.Direct accounts in one message
@@ -38,7 +40,7 @@ Single-tenant Telegram bot for monitoring Yandex.Direct statistics and budgets. 
    ```bash
    cp .env.example .env
    ```
-   
+
    Edit `.env` and set at minimum:
    - `TELEGRAM_BOT_TOKEN` - Your bot token from @BotFather
    - `OWNER_TG_ID` - Your Telegram user ID (get from [@userinfobot](https://t.me/userinfobot))
